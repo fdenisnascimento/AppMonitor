@@ -10,6 +10,7 @@ target 'LioMonitor' do
 	pod 'Firebase/Core'
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
+	pod 'IQKeyboardManagerSwift'
 
   target 'LioMonitorTests' do
     inherit! :search_paths
