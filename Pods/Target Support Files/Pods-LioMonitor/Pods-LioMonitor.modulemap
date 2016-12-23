@@ -1,0 +1,6 @@
+framework module Pods_LioMonitor {
+  umbrella header "Pods-LioMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

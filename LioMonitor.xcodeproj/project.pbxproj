@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D2E611164987AB0EDAA2DA /* Pods_LioMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4354540EA2518BA545AACA /* Pods_LioMonitorUITests.framework */; };
+		9209B0F61E0D6A10005A6344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9209B0F41E0D6A10005A6344 /* Main.storyboard */; };
+		9209B0FB1E0D6A10005A6344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9209B0F91E0D6A10005A6344 /* LaunchScreen.storyboard */; };
+		9209B1061E0D6A10005A6344 /* LioMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209B1051E0D6A10005A6344 /* LioMonitorTests.swift */; };
+		9209B1111E0D6A10005A6344 /* LioMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209B1101E0D6A10005A6344 /* LioMonitorUITests.swift */; };
+		9209B1211E0D6B41005A6344 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9209B1201E0D6B41005A6344 /* AdSupport.framework */; };
+		9209B12F1E0D6D13005A6344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209B12B1E0D6D13005A6344 /* ViewController.swift */; };
+		9209B1331E0D6D87005A6344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209B1321E0D6D87005A6344 /* AppDelegate.swift */; };
+		9209B1361E0D6D8E005A6344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9209B1351E0D6D8E005A6344 /* Assets.xcassets */; };
+		9209B1381E0D6D9D005A6344 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9209B1371E0D6D9D005A6344 /* GoogleService-Info.plist */; };
+		9209B13A1E0D6DC6005A6344 /* FDNDatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209B1391E0D6DC6005A6344 /* FDNDatabaseReference.swift */; };
+		925137191E0DBF7800E31872 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925137181E0DBF7800E31872 /* BaseViewController.swift */; };
+		B900B5CA2AF6B6BF570CEBB3 /* Pods_LioMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E4A514E585AE3A63B8F9F4 /* Pods_LioMonitor.framework */; };
+		EB85F637C96576187CB8A87F /* Pods_LioMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B843646BAF9916E3A672D528 /* Pods_LioMonitorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9209B1021E0D6A10005A6344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9209B0E51E0D6A10005A6344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9209B0EC1E0D6A10005A6344;
+			remoteInfo = LioMonitor;
+		};
+		9209B10D1E0D6A10005A6344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9209B0E51E0D6A10005A6344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9209B0EC1E0D6A10005A6344;
+			remoteInfo = LioMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CD0AF8F54EFDE8A82195916 /* Pods-LioMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitor/Pods-LioMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		721BC26C876EF7FA6758AFE1 /* Pods-LioMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitorTests/Pods-LioMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78E4A514E585AE3A63B8F9F4 /* Pods_LioMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AC4ECF9D008F4248A7B868 /* Pods-LioMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitorUITests/Pods-LioMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC1F6457F59354DCB57EBA5 /* Pods-LioMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitor/Pods-LioMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		9209B0ED1E0D6A10005A6344 /* LioMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LioMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9209B0F51E0D6A10005A6344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9209B0FA1E0D6A10005A6344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9209B0FC1E0D6A10005A6344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9209B1011E0D6A10005A6344 /* LioMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9209B1051E0D6A10005A6344 /* LioMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioMonitorTests.swift; sourceTree = "<group>"; };
+		9209B1071E0D6A10005A6344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9209B10C1E0D6A10005A6344 /* LioMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9209B1101E0D6A10005A6344 /* LioMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioMonitorUITests.swift; sourceTree = "<group>"; };
+		9209B1121E0D6A10005A6344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9209B1201E0D6B41005A6344 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9209B12B1E0D6D13005A6344 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9209B1321E0D6D87005A6344 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9209B1351E0D6D8E005A6344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9209B1371E0D6D9D005A6344 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9209B1391E0D6DC6005A6344 /* FDNDatabaseReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDNDatabaseReference.swift; sourceTree = "<group>"; };
+		925137181E0DBF7800E31872 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9B5B6828A4C5CE19E1CB266B /* Pods-LioMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitorUITests/Pods-LioMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C7FDCC6525DA37F93658143 /* Pods-LioMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LioMonitorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LioMonitorTests/Pods-LioMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B843646BAF9916E3A672D528 /* Pods_LioMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4354540EA2518BA545AACA /* Pods_LioMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LioMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9209B0EA1E0D6A10005A6344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209B1211E0D6B41005A6344 /* AdSupport.framework in Frameworks */,
+				B900B5CA2AF6B6BF570CEBB3 /* Pods_LioMonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B0FE1E0D6A10005A6344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85F637C96576187CB8A87F /* Pods_LioMonitorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B1091E0D6A10005A6344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D2E611164987AB0EDAA2DA /* Pods_LioMonitorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D1612AED37114861485376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1201E0D6B41005A6344 /* AdSupport.framework */,
+				78E4A514E585AE3A63B8F9F4 /* Pods_LioMonitor.framework */,
+				B843646BAF9916E3A672D528 /* Pods_LioMonitorTests.framework */,
+				DF4354540EA2518BA545AACA /* Pods_LioMonitorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9209B0E41E0D6A10005A6344 = {
+			isa = PBXGroup;
+			children = (
+				9209B0EF1E0D6A10005A6344 /* LioMonitor */,
+				9209B1041E0D6A10005A6344 /* LioMonitorTests */,
+				9209B10F1E0D6A10005A6344 /* LioMonitorUITests */,
+				9209B0EE1E0D6A10005A6344 /* Products */,
+				D2D3B344D2AFCBDD7C8E4BF3 /* Pods */,
+				46D1612AED37114861485376 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9209B0EE1E0D6A10005A6344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9209B0ED1E0D6A10005A6344 /* LioMonitor.app */,
+				9209B1011E0D6A10005A6344 /* LioMonitorTests.xctest */,
+				9209B10C1E0D6A10005A6344 /* LioMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9209B0EF1E0D6A10005A6344 /* LioMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1311E0D6D87005A6344 /* AppDelegate */,
+				9209B12A1E0D6D13005A6344 /* Controllers */,
+				9209B12C1E0D6D13005A6344 /* Models */,
+				9209B12E1E0D6D13005A6344 /* Views */,
+				9209B1301E0D6D3D005A6344 /* Utils */,
+				9209B1341E0D6D8E005A6344 /* Resources */,
+				9209B0FC1E0D6A10005A6344 /* Info.plist */,
+			);
+			path = LioMonitor;
+			sourceTree = "<group>";
+		};
+		9209B1041E0D6A10005A6344 /* LioMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1051E0D6A10005A6344 /* LioMonitorTests.swift */,
+				9209B1071E0D6A10005A6344 /* Info.plist */,
+			);
+			path = LioMonitorTests;
+			sourceTree = "<group>";
+		};
+		9209B10F1E0D6A10005A6344 /* LioMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1101E0D6A10005A6344 /* LioMonitorUITests.swift */,
+				9209B1121E0D6A10005A6344 /* Info.plist */,
+			);
+			path = LioMonitorUITests;
+			sourceTree = "<group>";
+		};
+		9209B12A1E0D6D13005A6344 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9209B12B1E0D6D13005A6344 /* ViewController.swift */,
+				925137181E0DBF7800E31872 /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9209B12C1E0D6D13005A6344 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1391E0D6DC6005A6344 /* FDNDatabaseReference.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9209B12E1E0D6D13005A6344 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9209B0F91E0D6A10005A6344 /* LaunchScreen.storyboard */,
+				9209B0F41E0D6A10005A6344 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9209B1301E0D6D3D005A6344 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1371E0D6D9D005A6344 /* GoogleService-Info.plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9209B1311E0D6D87005A6344 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1321E0D6D87005A6344 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9209B1341E0D6D8E005A6344 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9209B1351E0D6D8E005A6344 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2D3B344D2AFCBDD7C8E4BF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CD0AF8F54EFDE8A82195916 /* Pods-LioMonitor.debug.xcconfig */,
+				8FC1F6457F59354DCB57EBA5 /* Pods-LioMonitor.release.xcconfig */,
+				721BC26C876EF7FA6758AFE1 /* Pods-LioMonitorTests.debug.xcconfig */,
+				9C7FDCC6525DA37F93658143 /* Pods-LioMonitorTests.release.xcconfig */,
+				82AC4ECF9D008F4248A7B868 /* Pods-LioMonitorUITests.debug.xcconfig */,
+				9B5B6828A4C5CE19E1CB266B /* Pods-LioMonitorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9209B0EC1E0D6A10005A6344 /* LioMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9209B1151E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitor" */;
+			buildPhases = (
+				1148610CE58C7FA84D9BDC75 /* [CP] Check Pods Manifest.lock */,
+				9209B0E91E0D6A10005A6344 /* Sources */,
+				9209B0EA1E0D6A10005A6344 /* Frameworks */,
+				9209B0EB1E0D6A10005A6344 /* Resources */,
+				C1A679DA8BDFF75301EDBCB6 /* [CP] Embed Pods Frameworks */,
+				8375409510DA9D0C8000ECBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LioMonitor;
+			productName = LioMonitor;
+			productReference = 9209B0ED1E0D6A10005A6344 /* LioMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9209B1001E0D6A10005A6344 /* LioMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9209B1181E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitorTests" */;
+			buildPhases = (
+				63A3A7EBA7C2CA218C1F9E05 /* [CP] Check Pods Manifest.lock */,
+				9209B0FD1E0D6A10005A6344 /* Sources */,
+				9209B0FE1E0D6A10005A6344 /* Frameworks */,
+				9209B0FF1E0D6A10005A6344 /* Resources */,
+				0E5C74E274A51CC3FBC96A0D /* [CP] Embed Pods Frameworks */,
+				C0E8E3543A6A80BB8DD4E5C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9209B1031E0D6A10005A6344 /* PBXTargetDependency */,
+			);
+			name = LioMonitorTests;
+			productName = LioMonitorTests;
+			productReference = 9209B1011E0D6A10005A6344 /* LioMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9209B10B1E0D6A10005A6344 /* LioMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9209B11B1E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitorUITests" */;
+			buildPhases = (
+				C8AAA26AFCC8E318D7233B58 /* [CP] Check Pods Manifest.lock */,
+				9209B1081E0D6A10005A6344 /* Sources */,
+				9209B1091E0D6A10005A6344 /* Frameworks */,
+				9209B10A1E0D6A10005A6344 /* Resources */,
+				772E47862F9F8F0F0E0695C8 /* [CP] Embed Pods Frameworks */,
+				5495CEC51B3B161E96F0EF40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9209B10E1E0D6A10005A6344 /* PBXTargetDependency */,
+			);
+			name = LioMonitorUITests;
+			productName = LioMonitorUITests;
+			productReference = 9209B10C1E0D6A10005A6344 /* LioMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9209B0E51E0D6A10005A6344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Denis Nascimento";
+				TargetAttributes = {
+					9209B0EC1E0D6A10005A6344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X434P4DGS5;
+						ProvisioningStyle = Automatic;
+					};
+					9209B1001E0D6A10005A6344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X434P4DGS5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9209B0EC1E0D6A10005A6344;
+					};
+					9209B10B1E0D6A10005A6344 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X434P4DGS5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9209B0EC1E0D6A10005A6344;
+					};
+				};
+			};
+			buildConfigurationList = 9209B0E81E0D6A10005A6344 /* Build configuration list for PBXProject "LioMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9209B0E41E0D6A10005A6344;
+			productRefGroup = 9209B0EE1E0D6A10005A6344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9209B0EC1E0D6A10005A6344 /* LioMonitor */,
+				9209B1001E0D6A10005A6344 /* LioMonitorTests */,
+				9209B10B1E0D6A10005A6344 /* LioMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9209B0EB1E0D6A10005A6344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209B0FB1E0D6A10005A6344 /* LaunchScreen.storyboard in Resources */,
+				9209B1381E0D6D9D005A6344 /* GoogleService-Info.plist in Resources */,
+				9209B1361E0D6D8E005A6344 /* Assets.xcassets in Resources */,
+				9209B0F61E0D6A10005A6344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B0FF1E0D6A10005A6344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B10A1E0D6A10005A6344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5C74E274A51CC3FBC96A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitorTests/Pods-LioMonitorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1148610CE58C7FA84D9BDC75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5495CEC51B3B161E96F0EF40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitorUITests/Pods-LioMonitorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A3A7EBA7C2CA218C1F9E05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		772E47862F9F8F0F0E0695C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitorUITests/Pods-LioMonitorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8375409510DA9D0C8000ECBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitor/Pods-LioMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E8E3543A6A80BB8DD4E5C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitorTests/Pods-LioMonitorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A679DA8BDFF75301EDBCB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LioMonitor/Pods-LioMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AAA26AFCC8E318D7233B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9209B0E91E0D6A10005A6344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209B1331E0D6D87005A6344 /* AppDelegate.swift in Sources */,
+				925137191E0DBF7800E31872 /* BaseViewController.swift in Sources */,
+				9209B12F1E0D6D13005A6344 /* ViewController.swift in Sources */,
+				9209B13A1E0D6DC6005A6344 /* FDNDatabaseReference.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B0FD1E0D6A10005A6344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209B1061E0D6A10005A6344 /* LioMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9209B1081E0D6A10005A6344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9209B1111E0D6A10005A6344 /* LioMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9209B1031E0D6A10005A6344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9209B0EC1E0D6A10005A6344 /* LioMonitor */;
+			targetProxy = 9209B1021E0D6A10005A6344 /* PBXContainerItemProxy */;
+		};
+		9209B10E1E0D6A10005A6344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9209B0EC1E0D6A10005A6344 /* LioMonitor */;
+			targetProxy = 9209B10D1E0D6A10005A6344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9209B0F41E0D6A10005A6344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9209B0F51E0D6A10005A6344 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9209B0F91E0D6A10005A6344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9209B0FA1E0D6A10005A6344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9209B1131E0D6A10005A6344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9209B1141E0D6A10005A6344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9209B1161E0D6A10005A6344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD0AF8F54EFDE8A82195916 /* Pods-LioMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.liomonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9209B1171E0D6A10005A6344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC1F6457F59354DCB57EBA5 /* Pods-LioMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.liomonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9209B1191E0D6A10005A6344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721BC26C876EF7FA6758AFE1 /* Pods-LioMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.LioMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioMonitor.app/LioMonitor";
+			};
+			name = Debug;
+		};
+		9209B11A1E0D6A10005A6344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7FDCC6525DA37F93658143 /* Pods-LioMonitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.LioMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioMonitor.app/LioMonitor";
+			};
+			name = Release;
+		};
+		9209B11C1E0D6A10005A6344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AC4ECF9D008F4248A7B868 /* Pods-LioMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.LioMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LioMonitor;
+			};
+			name = Debug;
+		};
+		9209B11D1E0D6A10005A6344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5B6828A4C5CE19E1CB266B /* Pods-LioMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = LioMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdnascimento.LioMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LioMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9209B0E81E0D6A10005A6344 /* Build configuration list for PBXProject "LioMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9209B1131E0D6A10005A6344 /* Debug */,
+				9209B1141E0D6A10005A6344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9209B1151E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9209B1161E0D6A10005A6344 /* Debug */,
+				9209B1171E0D6A10005A6344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9209B1181E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9209B1191E0D6A10005A6344 /* Debug */,
+				9209B11A1E0D6A10005A6344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9209B11B1E0D6A10005A6344 /* Build configuration list for PBXNativeTarget "LioMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9209B11C1E0D6A10005A6344 /* Debug */,
+				9209B11D1E0D6A10005A6344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9209B0E51E0D6A10005A6344 /* Project object */;
+}
