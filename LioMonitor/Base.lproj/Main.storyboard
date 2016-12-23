@@ -91,6 +91,7 @@
                     <connections>
                         <outlet property="textEmail" destination="1hd-Lk-Bem" id="bMT-9g-veJ"/>
                         <outlet property="textPassword" destination="8iR-Qh-gGK" id="r6x-Nh-GTJ"/>
+                        <outlet property="viewBox" destination="x7E-eW-Wd3" id="hyS-va-adI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

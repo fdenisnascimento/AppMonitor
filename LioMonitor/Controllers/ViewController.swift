@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class ViewController: BaseViewController {
 
     @IBOutlet weak var textPassword: UITextField!
     @IBOutlet weak var textEmail: UITextField!
+    @IBOutlet weak var viewBox: IQPreviousNextView!
     
     
     override func viewDidLoad() {
